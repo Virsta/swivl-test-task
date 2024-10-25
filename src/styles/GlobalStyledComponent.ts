@@ -1,6 +1,5 @@
-import styled from 'styled-components';
-import { colors, breakpoints, flexBox, fontStyle} from '../utils/constants';
-
+import styled from "styled-components";
+import { colors, breakpoints, flexBox, fontStyle } from "../utils/constants";
 
 // Wrapper for the entire page
 export const PageWrapper = styled.div`

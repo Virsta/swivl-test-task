@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { colors, breakpoints, flexBox, fontStyle } from '../utils/constants';
+import styled from "styled-components";
+import { colors, breakpoints, flexBox, fontStyle } from "../utils/constants";
 
 // Header with navigation and user profile section
 export const Header = styled.header`

@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import { colors, breakpoints, fontStyle } from '../utils/constants';
-import oval from '../img/Oval.svg';
+import styled from "styled-components";
+import { colors, breakpoints, fontStyle } from "../utils/constants";
+import oval from "../img/Oval.svg";
 
 // Feed section displaying posts
 export const FeedSection = styled.main`

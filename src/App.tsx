@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import { navItems, posts } from "./utils/constants";
-import { PageWrapper, FlexBox, ProfileSection } from "./styles/GlobalStyledComponent";
+import {
+  PageWrapper,
+  FlexBox,
+  ProfileSection,
+} from "./styles/GlobalStyledComponent";
 import {
   Header,
   ActionButton,
@@ -72,8 +76,6 @@ const App: React.FC = () => {
   const handleNavClick = (index: number) => {
     setActiveIndex(index);
   };
-
-  
 
   return (
     <PageWrapper>

@@ -1,5 +1,11 @@
-import styled from 'styled-components';
-import { colors, breakpoints, flexBox, fontStyle, DropdownMenuProps } from '../utils/constants';
+import styled from "styled-components";
+import {
+  colors,
+  breakpoints,
+  flexBox,
+  fontStyle,
+  DropdownMenuProps,
+} from "../utils/constants";
 
 export const ProfileInfo = styled.div`
   flex: 1;

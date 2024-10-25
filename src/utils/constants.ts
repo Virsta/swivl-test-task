@@ -1,4 +1,4 @@
-import { css }from 'styled-components';
+import { css } from "styled-components";
 
 export const colors = {
   primary: "#F05D63",
@@ -7,7 +7,11 @@ export const colors = {
   border: "#E0E0E0",
 };
 
-export const flexBox = ({ direction = "row", justify = "initial", gap = 0 }) => `
+export const flexBox = ({
+  direction = "row",
+  justify = "initial",
+  gap = 0,
+}) => `
   display: flex;
   flex-direction: ${direction};
   justify-content: ${justify};
